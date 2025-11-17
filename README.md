@@ -151,7 +151,7 @@ Below are the key endpoints. All requests must be authenticated by passing an `A
 ### 2. Clone & Install
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/333IAN/taskful-api.git](https://github.com/333IAN/taskful-api.git)
+git clone https://github.com/333IAN/taskful-api.git
 cd taskful-api
 
 # 2. Create and activate a virtual environment
