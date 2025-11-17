@@ -14,12 +14,12 @@ This project is built to be a robust, scalable, and secure backend for a modern 
 
 * **User Management:** Full user authentication, including registration, login, and password management.
 * **Social Authentication:** Pre-configured for social sign-on (Google, etc.) using `rest_framework_social_oauth2`.
-* **🏠 Collaborative Houses:** Users can create, join, leave, and manage "Houses." Each house is a shared workspace with a designated `manager` and `members`.
-* **✅ Task & List Management:** Full CRUD (Create, Read, Update, Delete) functionality for `Tasklists` and `Tasks` within each house.
+* **Collaborative Houses:** Users can create, join, leave, and manage "Houses." Each house is a shared workspace with a designated `manager` and `members`.
+* **Task & List Management:** Full CRUD (Create, Read, Update, Delete) functionality for `Tasklists` and `Tasks` within each house.
 * **Attachments:** Users can upload file attachments (e.g., images, documents) to specific tasks.
-* **🏆 Automated Point System:** Houses automatically earn 10 points for each completed task, managed by Django signals for real-time updates.
-* **🔄 Daily Statistics Job:** A daily background job runs to recalculate and validate all house statistics (total tasks, completed tasks, and points) to ensure 100% data integrity.
-* **☁️ Cloud File Storage:** Natively configured for Google Cloud Storage to handle all user-uploaded media (like house profile pictures) in a scalable way.
+* **Automated Point System:** Houses automatically earn 10 points for each completed task, managed by Django signals for real-time updates.
+* **Daily Statistics Job:** A daily background job runs to recalculate and validate all house statistics (total tasks, completed tasks, and points) to ensure 100% data integrity.
+* **Cloud File Storage:** Natively configured for Google Cloud Storage to handle all user-uploaded media (like house profile pictures) in a scalable way.
 
 ## 🏗️ Data Model
 
