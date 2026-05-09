@@ -148,15 +148,49 @@ Below are the key endpoints. All requests must be authenticated by passing an `A
 * Python 3.10+
 * A package manager (like `pip`)
 
-### 2. Clone & Install
+### **2. Clone & Install Repo**
 ```bash
-# 1. Clone the repository
 git clone [https://github.com/333IAN/taskful-api.git](https://github.com/333IAN/taskful-api.git)
 cd taskful-api
+```
 
-# 2. Create and activate a virtual environment
+### **2. Create and activate a virtual environment**
+```bash
 python -m venv venv
 source venv/bin/activate  # (On Windows, use: venv\Scripts\activate)
+```
 
-# 3. Install all required packages
+### **3. Install all required packages**
+```bash
 pip install -r requirements.txt
+```
+
+### **4. Set up environment variables**
+Create a .env file in the root directory
+```bash
+touch .env
+```
+Add your environment variables:
+```bash
+DEBUG=True
+SECRET_KEY=your_secret_key
+DATABASE_URL=your_database_url
+```
+
+### **5.Apply Migrations**
+```bash
+python manage.py migrate
+```
+
+### **6. Create Superuser**
+```bash
+python manage.py createsuperuser
+```
+
+### **7. Run development server**
+```bash
+python manage.py runserver
+```
+
+
+
