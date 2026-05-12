@@ -150,12 +150,7 @@ Below are the key endpoints. All requests must be authenticated by passing an `A
 
 ### **2. Clone & Install Repo**
 ```bash
-<<<<<<< HEAD
 git clone [https://github.com/333IAN/taskful-api.git](https://github.com/333IAN/taskful-api.git)
-=======
-# 1. Clone the repository
-git clone https://github.com/333IAN/taskful-api.git
->>>>>>> 1f8cfc03ed09c3a3b936f1ee9cea3b0ab6747fda
 cd taskful-api
 ```
 
@@ -196,11 +191,3 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
-
-
-
-<<<<<<< HEAD
-=======
-# 3. Install all required packages
-pip install -r requirements.txt
->>>>>>> 1f8cfc03ed09c3a3b936f1ee9cea3b0ab6747fda
