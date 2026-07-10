@@ -150,7 +150,7 @@ Below are the key endpoints. All requests must be authenticated by passing an `A
 
 ### **2. Clone & Install Repo**
 ```bash
-git clone [https://github.com/333IAN/taskful-api.git](https://github.com/333IAN/taskful-api.git)
+git clone https://github.com/333IAN/taskful-api.git
 cd taskful-api
 ```
 
