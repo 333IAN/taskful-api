@@ -9,6 +9,7 @@ A collaborative task management API built with Django and Django Rest Framework.
 
 This project is built to be a robust, scalable, and secure backend for a modern web or mobile application.
 
+![System architecture](/assets/taskful.png)
 
 ## ✨ Key Features
 
